@@ -1,0 +1,45 @@
+<html>
+
+  <head>
+    <title>Hls.js demo - basic usage</title>
+  </head>
+
+  <body>
+      <script src="hls.js"></script>
+
+      <center>
+          <h1>Hls.js demo - basic usage</h1>
+          <video height="300" id="video" controls></video>
+      </center>
+
+      <script>
+        if(Hls.isSupported()) {
+          var video = document.getElementById('video');
+          var hls = new Hls({
+              debug: true
+          });
+          hls.loadSource('https://latam5-lh.akamaihd.net/i/TSP_ARG@198922/index_360_av-p.m3u8?sd=10&rebase=on&id=AgDIMQF2vntfhJsH6F9HKIRKEq4kL8x+5l%2fod3B0vYD+IeLP4LUiNCw6ev8NkqehdejGYlnEChhu4g%3d%3d&hdntl=exp=1609063419~acl=%2f*~data=hdntl~hmac=a21248f95ac78b9819066394e8459f6da0f477c23e9c6ab4ce3fa6b220fb02f3');
+          hls.attachMedia(video);
+          hls.on(Hls.Events.MEDIA_ATTACHED, function() {
+            video.muted = true;
+            video.play();
+        });
+       }
+       // hls.js is not supported on platforms that do not have Media Source Extensions (MSE) enabled.
+       // When the browser has built-in HLS support (check using `canPlayType`), we can provide an HLS manifest (i.e. .m3u8 URL) directly to the video element throught the `src` property.
+       // This is using the built-in support of the plain video element, without using hls.js.
+        else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+          video.src = 'https://latam5-lh.akamaihd.net/i/TSP_ARG@198922/index_360_av-p.m3u8?sd=10&rebase=on&id=AgDIMQF2vntfhJsH6F9HKIRKEq4kL8x+5l%2fod3B0vYD+IeLP4LUiNCw6ev8NkqehdejGYlnEChhu4g%3d%3d&hdntl=exp=1609063419~acl=%2f*~data=hdntl~hmac=a21248f95ac78b9819066394e8459f6da0f477c23e9c6ab4ce3fa6b220fb02f3';
+          video.addEventListener('canplay',function() {
+            video.play();
+          });
+        }
+      </script>
+
+  <!-- injected in netlify post processing step -->
+<div style="position: absolute; top: 5px; right: 5px;">
+  <a rel="noopener" href="https://www.netlify.com" target="_blank"><img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" /></a>
+</div></body>
+</html>
+
+

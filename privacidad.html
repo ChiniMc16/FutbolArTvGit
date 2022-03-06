@@ -1,0 +1,16 @@
+<input id="consent_functional" type="checkbox" checked disabled /><label for="consent_functional">Functional (Strictly Necessary) Cookies</label>
+<input id="consent_performance" type="checkbox" checked /><label for="consent_performance">Performance Cookies</label>
+<input id="consent_targeting" type="checkbox" /><label for="consent_targeting">Targeting Cookies</label>
+<button type="button" class="button" id="consent_save">Save Cookie Settings</button>
+<script>
+    dataLayer.push({
+            'event' : 'setCookie',
+            'attributes' : {
+          'cookieName' : 'cookie_consent_settings_set',
+          'cookieValue' : 1,
+          'cookieDomain' : 'futbolartv.ml',
+          'cookiePath' : '/',
+          'cookieExpires' : 365
+            }
+          });
+  </script>
