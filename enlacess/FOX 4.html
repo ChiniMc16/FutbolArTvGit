@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="/video.js/css/video-js.css" rel="stylesheet">
+  </head>
+  <body>
+    <video id="my-video" class="video-js vjs-default-skin" controls preload="auto" data-setup='{}'>
+      <source src="https://cdn.cvattv.com.ar/live/c3eds/VTV_Plus_HD/SA_Live_dash_enc_2A/VTV_Plus_HD.mpd" type="application/dash+xml">
+    </video>
+    <script src="video.js/js/video.js"></script>
+    <script src="/videojs-dash.js"></script>
+    <script>
+      var player = videojs('my-video');
+    </script>
+  </body>
+</html>
