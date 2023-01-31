@@ -24,27 +24,19 @@
         -->
   </head>
   <body>
-    <video id="my-player" class="video-js vjs-default-skin" controls>
-    <source src="https://dtvott-abc.akamaized.net/dash_live_1057/manifest.mpd" type="application/dash+xml">
-  </video>
-  <script>
-    var player = videojs('my-player', {
-      controls: true,
-      autoplay: true,
-      preload: 'auto',
-      width: 640,
-      height: 360,
-      plugins: {
-        'http-streaming': {
-          keySystems: {
-            'com.widevine.alpha': {
-              url: 'https://cdn4.xaxa.live/keys/dtvar.json',
-            }
-          }
-        }
-      }
-    });
-  </script>
+    <video id="videoPlayer" class="video-js vjs-default-skin"></video>
+
+<script>
+var player = videojs("videoPlayer");
+player.dash({
+  "inputstream": {
+    "licenseKey": "https://cdn4.xaxa.live/keys/dtvar.json",
+    "licenseType": "clearkey",
+  },
+  "src": "https://dtvott-abc.akamaized.net/dash_live_1057/manifest.mpd"
+});
+</script>
+
   </body>
 </html>
 
