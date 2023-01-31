@@ -1,4 +1,4 @@
-8<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <link rel="stylesheet" href="https://unpkg.com/video.js/dist/video-js.min.css"/>
@@ -24,13 +24,27 @@
         -->
   </head>
   <body>
-    <video id="videoPlayer" class="video-js vjs-default-skin vjs-fluid" controls preload="auto"></video>
-    <script>
-      var player = videojs("videoPlayer");
-      player.dash({
-        "streamingSource": "https://cdn.cvattv.com.ar/live/c3eds/VTV_Plus_HD/SA_Live_dash_enc_2A/VTV_Plus_HD.mpd"
-      });
-    </script>
+    <video id="my-player" class="video-js vjs-default-skin" controls>
+    <source src="https://dtvott-abc.akamaized.net/dash_live_1057/manifest.mpd" type="application/dash+xml">
+  </video>
+  <script>
+    var player = videojs('my-player', {
+      controls: true,
+      autoplay: true,
+      preload: 'auto',
+      width: 640,
+      height: 360,
+      plugins: {
+        'http-streaming': {
+          keySystems: {
+            'com.widevine.alpha': {
+              url: 'https://cdn4.xaxa.live/keys/dtvar.json',
+            }
+          }
+        }
+      }
+    });
+  </script>
   </body>
 </html>
 
