@@ -29,6 +29,16 @@
     <script src="jwplayer('myElement').setup({"></script>
     <script src="jwplayer('myElement')1.setup({"></script>
     <script src="videojs-contrib-hls.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/blockadblock@3.2.1/dist/blockadblock.min.js"></script>
+     <script>
+      var blockAdBlock = new BlockAdBlock();
+      blockAdBlock.onDetected(function() {
+        console.log('AdBlock está instalado');
+      });
+      blockAdBlock.onNotDetected(function() {
+        console.log('AdBlock no está instalado');
+      });
+    </script>
     <!--
       
     Uses the latest versions of video.js and videojs-contrib-hls.
@@ -42,7 +52,7 @@
     -->
     
 </head>
-<body>
+<body class"contenido">
     <header class="cabeza">
         <nav class="phone">
             <a href="../index.html">Inicio</a>
