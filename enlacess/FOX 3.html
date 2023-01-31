@@ -50,6 +50,11 @@
     <script src="https://unpkg.com/videojs-contrib-hls@4.1.1/dist/videojs-contrib-hls.js"></script>
     
     -->
+    <style>
+      .hide-ads {
+        display: none !important;
+      }
+    </style>
     
 </head>
 <body id="contenido">
@@ -75,7 +80,16 @@
             <img id="logo" class="titulo" src="imag/foxsport3.png">
         </center>
         <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://whitecup.cam/dtvpl2.html?id=1123" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" src="https://whitecup.cam/dtvpl2.html?id=1123" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen; class="hide-ads"></iframe>
+             <script>
+                var iframes = document.getElementsByTagName('iframe');
+                for (var i = 0; i < iframes.length; i++) {
+                var iframe = iframes[i];
+                if (iframe.src.indexOf('ads') !== -1) {
+                iframe.classList.add('hide-ads');
+                }
+               }
+             </script>
           </div>
           <h2 class="detalle">Fox Sports 3 es un servicio de televisión de paga enfocado en deportes que ofrece contenido exclusivo y transmisiones en vivo de eventos deportivos de alto nivel. Algunas de las características de Fox Sports incluyen:
 
