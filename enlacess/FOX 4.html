@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+8<!DOCTYPE html>
 <html>
   <head>
     <link rel="stylesheet" href="https://unpkg.com/video.js/dist/video-js.min.css"/>
@@ -8,6 +8,9 @@
     <link href="video-js.css" rel="stylesheet">
         <script src="video.js"></script>
         <script src="videojs-contrib-hls.js"></script>
+        <script src="https://unpkg.com/dashjs/dist/dash.all.js"></script>
+        <script src="dash.all.js"></script>
+        <script src="https://unpkg.com/video.js@7/dist/video.js"></script>
         <!--
           
         Uses the latest versions of video.js and videojs-contrib-hls.
@@ -21,12 +24,12 @@
         -->
   </head>
   <body>
-    <video id="video" class="video-js vjs-default-skin" controls preload="auto" width="640" height="360">
-      <source src="https://cdn.cvattv.com.ar/live/c3eds/VTV_Plus_HD/SA_Live_dash_enc_2A/VTV_Plus_HD.mpd" type="application/dash+xml" />
-    </video>
+    <video id="videoPlayer" class="video-js vjs-default-skin vjs-fluid" controls preload="auto"></video>
     <script>
-      var player = videojs('video');
-      player.play();
+      var player = videojs("videoPlayer");
+      player.dash({
+        "streamingSource": "https://cdn.cvattv.com.ar/live/c3eds/VTV_Plus_HD/SA_Live_dash_enc_2A/VTV_Plus_HD.mpd"
+      });
     </script>
   </body>
 </html>
