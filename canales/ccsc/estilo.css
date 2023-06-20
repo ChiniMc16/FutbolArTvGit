@@ -1,0 +1,429 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+.fabicon{
+    border-radius: 50% ;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo{
+    color: midnightblue;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.detalle{
+    color: midnightblue;
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* Header */
+
+header{
+    width: 100%;
+    height: 500px;
+    background: #F0F2F0;  /* fallback for old browsers */
+    background: -webkit-background: linear-gradient(to right, hsla(229, 100%, 13%, 0.596), hsla(120, 7%, 95%, 0.596)), url(../imag/Portada2.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(229, 100%, 13%, 0.596), hsla(120, 7%, 95%, 0.596)), url(../imag/Portada2.jpg); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+    text-align: right;
+    padding: 40px 60px 0 0;
+}
+
+nav > a{
+    color: moccasin;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+
+
+header .textosheader{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textosheader h1{
+    font-size: 50px;
+    color: hsl(49, 100%, 50%);
+}
+
+.textosheader h2{
+    font-size: 30px;
+    color: hsl(49, 100%, 50%);
+    font-weight: 400;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.embed-responsive {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+  }
+  
+.embed-responsive-item {
+    width: 50%;
+    height: 100%;
+  }
+
+
+  .container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 60.25%;
+    justify-content: center; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  }
+  
+  /* Then style the iframe to fit in the container div with full height and width */
+  .responsive-iframe {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 80%;
+    height: 100%;
+  }
+    
+  
+  
+  
+  
+  
+
+li{
+    text-align: right;
+    padding: 40px 50px 0 0;
+}
+
+li > a{
+    color: green;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+li > a:hover{
+    text-decoration: wavy;
+}
+.nover{
+    visibility: hidden;
+}
+
+/* About us */
+
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+    display: inline;
+}
+
+.imagen-about-us{
+    width: 100%;
+    background: #f2f2f2;
+    height: 500px;
+}
+
+.sobre-nosotros .contenido-textos{
+    width: 90%;
+    text-align: center;
+    margin: 30px;
+    background: #f2f2f2;
+}
+
+.contenido-textos h3{
+   margin-bottom: 15px;
+   text-align: center;
+}
+#logo{
+    margin: 20px;
+}
+
+.contenido-textos h3 span{
+    background: #4d0686;
+    color: whitesmoke;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0);
+    margin-right: 5px;
+}
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 200;
+    text-align: center;
+}
+
+/* canalesss */
+
+.canalesss{
+    display: flex;
+    text-align: center;
+}
+
+.enlacess li{
+    display: flex;
+    text-align: center;
+    color: aquamarine;
+
+
+}
+
+/* Galeria */
+
+.portafolio{
+    padding: 50px 0 50px;
+    margin: 180px 0 0 0;
+    background: #f2f2f2;
+}
+
+.imagen-port{
+    width: 100%;
+    height: 600px; 
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conten-foo{
+    color: rgb(15, 27, 15);
+    
+}
+
+.conten-foo h4{
+    font-weight: 1500;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+.conten-foo p{
+    font-weight: 600;
+    text-align: center;
+}
+
+.titulo-final{
+    color: black;
+    text-align: center;
+    font-weight: 800;
+    padding: 10px;
+    display: center;
+}
+
+
+
+/* footer */
+
+footer{
+    background-color: #0084ff;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px){
+    header{
+        background-position: center;
+    }
+    .contenedor-sobre-nosotros{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobre-nosotros .contenido-textos{
+        width: 90%;
+    }
+    .imagen-about-us{
+       width: 100%;
+    }
+
+    .imagen-port{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .portafolio{
+        width: 100%;
+        flex-direction: column;
+        background-position: center;
+    }
+    .vjs-default-skin{
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+        background-position: center;
+    }
+    
+
+    #logo{
+        width: 50%;
+    }
+
+    .embed-responsive {
+        width: 100%;
+        height: 500px;
+      }
+    
+      .embed-responsive-item {
+        width: 80%;
+        height: 100%;
+      }
+   
+}
+
+
+  
+  
+  
+@media screen and (max-width:3840px) {
+    .phone{
+        display: none;
+    }
+
+    #phone{
+        display: none;
+    }
+
+    .phones{
+        visibility: visible;
+    }
+
+    .nover{
+        visibility: visible;
+        
+        padding: 80px;
+    }
+    
+    .cabeza{
+        height: 50%;
+    }
+
+    .cabeza section h1{
+        margin-top: -20%;
+        
+    }
+
+  
+     
+ }
+
+ @media screen and (max-width:1000px) {
+ 
+    nav{
+        text-align: right;
+        padding: 40px 60px 0 0;
+    }
+    
+    nav > a{
+        color: moccasin;
+        font-weight: 300;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+    nav > a:hover{
+        text-decoration: underline;
+    }
+    
+    
+    header .textosheader{
+        display: flex;
+        height: 300px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .textosheader h1{
+        font-size: 50px;
+        color: hsl(49, 100%, 50%);
+    }
+    
+    .textosheader h2{
+        font-size: 30px;
+        color: hsl(49, 100%, 50%);
+        font-weight: 400;
+    }
+    
+    .wave{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    li{
+        text-align: right;
+        padding: 40px 50px 0 0;
+    }
+    
+    li > a{
+        color: green;
+        font-weight: 300;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+    
+    li > a:hover{
+        text-decoration: wavy;
+    }
+
+    
+ }
+  
