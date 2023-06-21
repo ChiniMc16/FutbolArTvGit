@@ -90,6 +90,7 @@ header .textosheader{
     position: absolute;
     bottom: 0;
     width: 100%;
+    height: 200px;
 }
 
 .embed-responsive {
@@ -116,7 +117,7 @@ header .textosheader{
   /* Then style the iframe to fit in the container div with full height and width */
   .responsive-iframe {
     position: absolute;
-    top: -100px;
+    top: 0;
     left: 0;
     bottom: 0;
     right: 0;
