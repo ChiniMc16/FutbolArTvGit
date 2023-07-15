@@ -260,6 +260,10 @@ footer{
     header{
         background-position: center;
     }
+
+    .videos{
+        width: %50
+    }
     .contenedor-sobre-nosotros{
         flex-direction: column;
         justify-content: center;
