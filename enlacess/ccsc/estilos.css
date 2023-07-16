@@ -97,6 +97,7 @@ header .textosheader{
     
   
 .videos { 
+    display: flex;
     width: 640px 
 }
   
