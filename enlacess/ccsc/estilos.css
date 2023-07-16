@@ -98,6 +98,7 @@ header .textosheader{
   
 .videos { 
     display: flex;
+    justify-content:center;
     width: 640px 
 }
   
