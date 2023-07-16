@@ -56,7 +56,8 @@ nav > a:hover{
 }
 .videos {
     width: 100%;
-    margin: 80px;
+    margin: 30px;
+    margin-bottom:50px;
     display: flex;
     justify-content:center;
     
