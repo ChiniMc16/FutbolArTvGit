@@ -240,13 +240,13 @@ footer{
 }
 
 
-@media screen and (max-width:600px){
+@media screen and (max-width:450px){
     header{
         background-position: center;
     }
 
    .videos{
-        width: %80
+        width: 100%
     } 
 
 
@@ -260,7 +260,7 @@ footer{
     }
 
     .videos{
-        width: %50
+        width: 100%
     }
     .contenedor-sobre-nosotros{
         flex-direction: column;
