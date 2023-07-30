@@ -38,7 +38,7 @@ body{
 
 header{
     width: 100%;
-    height: ;
+    height:100% ;
     /* Chrome 10-25, Safari 5.1-6 */
     background:  url(../imag/Portada2.jpg); 
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -62,28 +62,6 @@ nav > a:hover{
 }
 
 
-header .textosheader{
-    display: flex;
-    height: 500px;
-    width: 100%;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    padding-top: 0px;
-}
-
-.textosheader h1{
-    font-size: 500px;
-    color: hsl(49, 100%, 50%);
-}
-
-.textosheader h2{
-    font-size: 430px;
-    color: hsl(49, 100%, 50%);
-    font-weight: 400;
-}
 
 
 .embed-responsive {
