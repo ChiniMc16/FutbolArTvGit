@@ -42,7 +42,7 @@ header{
     background: #F0F2F0;  /* fallback for old browsers */
     background: -webkit-background: linear-gradient(to right, hsla(229, 100%, 13%, 0.596), hsla(120, 7%, 95%, 0.596)), url(../imag/Portada.jpg);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(229, 100%, 13%, 0.596), hsla(120, 7%, 95%, 0.596)), url(../imag/Portada.jpg) position(absolute); 
+    background: linear-gradient(to right, hsla(229, 100%, 13%, 0.596), hsla(120, 7%, 95%, 0.596)), url(../imag/Portada.jpg); 
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
