@@ -24,9 +24,9 @@ body{
     color: black;
     font-size: 30px;
     text-shadow: 1px 0px 1px #ffffff,
-                  3px 0px 3px #E74C3C,
-                 4px 0px 4px #E74C3C,
-                  5px 0px 5px #ffffff;   
+                  3px 0px 0px #E74C3C,
+                 0px 0px 4px #E74C3C,
+                  5px 0px 0px #ffffff;   
     
     
     text-align: center;
