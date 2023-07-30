@@ -69,7 +69,7 @@ nav > a:hover{
 
 header .textosheader{
     display: flex;
-    height: 200px;
+    height: 400px;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -79,12 +79,12 @@ header .textosheader{
 }
 
 .textosheader h1{
-    font-size: 250px;
+    font-size: 350px;
     color: hsl(49, 100%, 50%);
 }
 
 .textosheader h2{
-    font-size: 130px;
+    font-size: 230px;
     color: hsl(49, 100%, 50%);
     font-weight: 400;
 }
