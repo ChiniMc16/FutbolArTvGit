@@ -21,12 +21,14 @@ body{
 }
 
 .titulo{
-    color: #E74C3C;
+    color: #ffffff;
     font-size: 30px;
     text-shandow: 1px 0px 0px 
                   0px 1px 0px
                  -1px 0px 0px
                   0px -1px 0px;   
+     text-shandow-color:#E74C3C;
+    
     text-align: center;
     margin-bottom: 10px;
     border-color: #ffffff;
