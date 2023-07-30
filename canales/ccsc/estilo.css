@@ -21,7 +21,8 @@ body{
 }
 
 .titulo{
-    -webkit-text-stroke: 1px #ffffff;
+    Font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+    -webkit-text-stroke: 0.5px #ffffff;
     color: black;
     font-size: 30px;
     letter-spacing: 6px;
