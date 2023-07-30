@@ -23,8 +23,8 @@ body{
 .titulo{
     color: #ffffff;
     font-size: 30px;
-    text-shadow: 1px 0px 0px #E74C3C,
-                  0px 1px 0px #E74C3C,
+    text-shadow: 4px 0px 0px #E74C3C,
+                  0px 2px 0px #1c1c1c,
                  -1px 0px 0px #E74C3C,
                   0px -1px 0px #E74C3C;   
     
