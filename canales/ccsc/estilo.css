@@ -21,9 +21,8 @@ body{
 }
 
 .titulo{
-    -webkit-text-stroke: 2px #ffffff;
+    -webkit-text-stroke: 1px #ffffff;
     color: black;
-    padding: 5px;
     font-size: 30px;
     letter-spacing: 6px;
     text-shadow: 1px 1px 1px #ffffff,
