@@ -21,12 +21,12 @@ body{
 }
 
 .titulo{
-    color: #ffffff;
+    color: black;
     font-size: 30px;
     text-shadow: 4px 0px 0px #E74C3C,
-                  0px 2px 0px #1c1c1c,
-                 -1px 0px 0px #E74C3C,
-                  0px -1px 0px #E74C3C;   
+                  0px 2px 0px #ffffff,
+                 -4px 0px 0px #E74C3C,
+                  0px -3px 0px #ffffff;   
     
     
     text-align: center;
