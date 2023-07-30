@@ -43,6 +43,10 @@ nav{
     padding: 40px 60px 0 0;
 }
 
+.portada {
+    width: 100%;
+}
+
 nav > a{
     color: moccasin;
     font-weight: 300;
