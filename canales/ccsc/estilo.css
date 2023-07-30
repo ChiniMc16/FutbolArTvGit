@@ -349,15 +349,7 @@ footer{
         padding: 80px;
     }
     
-    .cabeza{
-        height: 50%;
-    }
-
-    .cabeza section h1{
-        margin-top: -20%;
-        
-    }
-
+    
   
      
  }
@@ -382,7 +374,7 @@ footer{
     
     header .textosheader{
         display: flex;
-        height: 300px;
+        height: 100%;
         width: 100%;
         align-items: center;
         justify-content: center;
@@ -391,21 +383,17 @@ footer{
     }
     
     .textosheader h1{
-        font-size: 50px;
+        font-size: 100%;
         color: hsl(49, 100%, 50%);
     }
     
     .textosheader h2{
-        font-size: 30px;
+        font-size: 100%;
         color: hsl(49, 100%, 50%);
         font-weight: 400;
     }
     
-    .wave{
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-    }
+    
     
     li{
         text-align: right;
