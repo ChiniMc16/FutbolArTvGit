@@ -131,8 +131,8 @@ nav > a:hover{
     overflow: hidden; 
     padding-botton: ; 
     
-    width: 95%;
-    height: 500px;    
+    width: 98%;
+    height: 400px;    
     margin: 1%;
 }
 
@@ -140,7 +140,7 @@ nav > a:hover{
     width:100%;
     border-radius:10px 10px 10px 10px;
     justify-content: space-evenly;
-    margin-top:20px;
+    margin-top:10px;
 }
 
 
