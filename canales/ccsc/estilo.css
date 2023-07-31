@@ -80,7 +80,7 @@ nav > a:hover{
     border-radius: 25px;
     margin-top: -230px;
     margin-bottom: 30px;    
-    position:;
+    position: absolute;
     justify-content: center;
 }
 
