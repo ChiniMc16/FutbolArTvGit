@@ -292,7 +292,21 @@ footer{
         justify-content: center;
         align-items: center;
     }
+    .carbono {
+        width: 100%;
+        
+    }
 
+    .if{
+        width: 100;
+    }
+
+    .ifra{
+        width: 100%;
+        
+    }
+
+    
     .sobre-nosotros .contenido-textos{
         width: 90%;
     }
