@@ -119,6 +119,14 @@ nav > a:hover{
     margin-top:25px;
   }
 
+.embed2 {
+    width: 90%;
+    height: 150px;
+    border-radius:10px;
+    justify-content:space-evenly;
+    margin-top:25px;
+}
+
 
   .container {
     position: relative;
