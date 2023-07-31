@@ -80,7 +80,8 @@ nav > a:hover{
     border-radius: 25px;
     margin-top: -230px;
     margin-bottom: 30px;    
-    display:center;
+    display: flex;
+    justify-content: center;
 }
 
 .cajon {
