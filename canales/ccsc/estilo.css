@@ -89,7 +89,7 @@ nav > a:hover{
 
 
 .embed-responsive {
-    width: 100%;
+    width: 80%;
     height: 500px;
     display: flex;
     justify-content: center;
