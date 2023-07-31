@@ -74,15 +74,19 @@ nav > a:hover{
 }
 
 .carbono {
+    height: 700px;
     background-color: #1c1c1c;
     border-radius: 25px;
     margin-top: -230px;
+    width:90%;
 }
 
 .cajon {
+    width:85%;
     background-color: #5f7f7a;
     border-radius: 15px;
     margin-bottom: 25px;
+    
 }
 
 .if {
