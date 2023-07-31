@@ -129,16 +129,15 @@ nav > a:hover{
 
 .if2 {
     overflow: hidden; 
-    border-radius: 10px; 
     padding-botton: ; 
     margin-top: 25px;
-    width: 98%;
+    width: 100%;
     height: 500px;    
     margin: 1%;
 }
 
 .embed3 {
-    width: 90%;
+    width:100%;
     border-radius:15px;
     justify-content:space-evenly;
 }
