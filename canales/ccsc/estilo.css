@@ -97,10 +97,10 @@ nav > a:hover{
 }
 
 .ifra {
-    width: 100%;
+    
     border-radius: 10px;
     justify-content: space-evenly;
-    margin: 12px;
+    
     position: absolute;
 
   }
