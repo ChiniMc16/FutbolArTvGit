@@ -75,7 +75,8 @@ nav > a:hover{
 .cajon {
     width:95%;
     height: 200px ;
-    display: flex;    
+    display: flex;
+    justify-content: center;    
     background-color: #5f7f7a;
     border-radius: 15px;
     margin-bottom: 5px;
