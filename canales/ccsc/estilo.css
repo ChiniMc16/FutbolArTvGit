@@ -83,7 +83,10 @@ nav > a:hover{
     overflow: hidden; 
     border-radius: 6px; 
     padding-bottom: 56.25%; 
-    position: relativ; margin-top: 5px;
+    position: relativ;
+    margin-top: 35px;
+    width: 80%;
+    
 }
 
 ifra {
