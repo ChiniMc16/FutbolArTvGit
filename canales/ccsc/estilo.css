@@ -97,9 +97,9 @@ nav > a:hover{
 
 .ifra {
     width: 80%;
-    height: 500px;
+    height: 200px;
     border-radius: 10px;
-    position 
+    position:absolute;
   }
   
 .embed-responsive-item {
