@@ -73,6 +73,12 @@ nav > a:hover{
     text-decoration: underline;
 }
 
+.carbono {
+    background-color: #1c1c1c;
+    border-radius: 25px;
+    margin-top: -230px;
+}
+
 .cajon {
     background-color: #5f7f7a;
     border-radius: 15px;
