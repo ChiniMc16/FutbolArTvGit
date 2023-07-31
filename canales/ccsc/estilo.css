@@ -73,7 +73,19 @@ nav > a:hover{
     text-decoration: underline;
 }
 
+.cajón {
+    background-color: #5f7f7a;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
 
+.if {
+    overflow: hidden; 
+    border-radius: 6px; 
+    padding-bottom: 56.25%; 
+    position: relative; 
+    margin-top:25px
+}
 
 
 .embed-responsive {
