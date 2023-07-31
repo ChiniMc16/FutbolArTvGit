@@ -93,6 +93,7 @@ nav > a:hover{
     width: 80%;
     height: 500px;    
     margin: 12px;
+    justify-content: space-evenly;
 }
 
 .ifra {
