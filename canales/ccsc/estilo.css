@@ -292,7 +292,12 @@ footer{
         justify-content: center;
         align-items: center;
     }
-    
+    .carbono{
+        width:100%;
+        height:600px;
+
+        
+    }
 
     
     .sobre-nosotros .contenido-textos{
