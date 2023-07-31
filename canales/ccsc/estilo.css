@@ -129,10 +129,10 @@ nav > a:hover{
 
 .embed3 {
     width: 90%;
-    height: 150px;
-    border-radius:10px;
+    height: 200px;
+    border-radius:15px;
     justify-content:space-evenly;
-    margin-top:25px;
+    margin-top:45px;
 }
 
 
