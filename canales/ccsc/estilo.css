@@ -127,12 +127,19 @@ nav > a:hover{
     margin-top:25px;
 }
 
+.if {
+    overflow: hidden; 
+    border-radius: 10px; 
+    padding-botton: ; 
+    margin-top: 25px;
+    width: 98%;
+    height: 500px;    
+    margin: 1%;
+
 .embed3 {
     width: 90%;
-    height: 200px;
     border-radius:15px;
     justify-content:space-evenly;
-    margin-top:45px;
 }
 
 
