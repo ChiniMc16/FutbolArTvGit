@@ -147,15 +147,13 @@ nav > a:hover{
 }
 .envivo {
     overflow: hidden; 
-    border-radius: 10px;
-    
     margin-top: 25px;
     margin: 1%;
     
     
 }
 .envivoif {
-    width:90%; 
+    width:85%; 
     border-radius:10px;
 
 }
