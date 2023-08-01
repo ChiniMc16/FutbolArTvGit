@@ -145,6 +145,18 @@ nav > a:hover{
     margin-top:15px;
     border-radius-low:10px;
 }
+.envivo {
+    overflow: hidden; 
+    border-radius: 10px; 
+    padding-botton: ; 
+    
+    margin-top: 25px;
+    width: 98%;
+    height: 200px;    
+    margin: 1%;
+    
+    
+}
 
 
   .container {
