@@ -156,6 +156,8 @@ nav > a:hover{
     width:85.5%; 
     border-radius:10px;
     margin-top:25px;
+    justify-content: space-evenly;
+    height:150px;
 
 }
 
