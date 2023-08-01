@@ -132,8 +132,9 @@ nav > a:hover{
     padding-botton: ; 
     
     width: 98%;
-    height: 500px;    
+    height: 200px;    
     margin-right: 1%;
+    position:absolute;
 }
 
 .embed3 {
