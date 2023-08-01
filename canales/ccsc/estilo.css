@@ -150,10 +150,12 @@ nav > a:hover{
     border-radius: 10px;
     
     margin-top: 25px;
-    width: 70%;
     margin: 1%;
     
     
+}
+.envivoif {
+    width:80%; 
 }
 
 
