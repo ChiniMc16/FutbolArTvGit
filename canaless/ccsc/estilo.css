@@ -931,7 +931,7 @@ footer{
             margin-left: 5px;
             background-color: #1c1c1c;
             border-radius: 25px;
-            margin-top: 100px;
+            margin-top: 80px;
             margin-bottom: 30px;    
             
         }
@@ -965,12 +965,12 @@ footer{
             border-radius:10px;
             margin-top:16px;
             justify-content: space-evenly;
-            height:470px;
+            height:472px;
         
         }
     }
 
-    @media screen and (max-width: 905px){
+    @media screen and (max-width: 907px){
         header{
             background-position: center;
         }
@@ -978,7 +978,7 @@ footer{
         .portada{
             width: 100px;
             margin-left: 4px;
-            height: 230px;
+            height: 200px;
     
     
         }
@@ -995,7 +995,7 @@ footer{
             margin-left: 5px;
             background-color: #1c1c1c;
             border-radius: 25px;
-            margin-top: 110px;
+            margin-top: 80px;
             margin-bottom: 30px;    
             
         }
@@ -1029,7 +1029,7 @@ footer{
             border-radius:10px;
             margin-top:16px;
             justify-content: space-evenly;
-            height:450px;
+            height:452px;
         
         }
     }
@@ -1098,7 +1098,7 @@ footer{
         }
     }
 
-    @media screen and (max-width: 830px){
+    @media screen and (max-width: 832px){
         header{
             background-position: center;
         }
@@ -1111,7 +1111,7 @@ footer{
         .portada{
             width: 100px;
             margin-left: px;
-            height: 210px;
+            height: 200px;
     
     
         }
@@ -1128,7 +1128,7 @@ footer{
             margin-left: 5px;
             background-color: #1c1c1c;
             border-radius: 25px;
-            margin-top: 130px;
+            margin-top: 80px;
             margin-bottom: 30px;    
             
         }
@@ -1162,7 +1162,7 @@ footer{
             border-radius:10px;
             margin-top:16px;
             justify-content: space-evenly;
-            height:410px;
+            height:412px;
         
         }
     }
@@ -1239,7 +1239,7 @@ footer{
         .portada{
             width: 100px;
             margin-left: px;
-            height: 230px;
+            height: 200px;
     
     
         }
@@ -1256,7 +1256,7 @@ footer{
             margin-left: 5px;
             background-color: #1c1c1c;
             border-radius: 25px;
-            margin-top: 150px;
+            margin-top: 90px;
             margin-bottom: 30px;    
             
         }
@@ -1290,12 +1290,12 @@ footer{
             border-radius:10px;
             margin-top:16px;
             justify-content: space-evenly;
-            height:370px;
+            height:372px;
         
         }
     }
 
-    @media screen and (max-width: 720px){
+    @media screen and (max-width: 722px){
         header{
             background-position: center;
         }
@@ -1303,7 +1303,7 @@ footer{
         .portada{
             width: 100px;
             margin-left: px;
-            height: 190px;
+            height: 200px;
     
     
         }
@@ -1320,7 +1320,7 @@ footer{
             margin-left: 5px;
             background-color: #1c1c1c;
             border-radius: 25px;
-            margin-top: 230px;
+            margin-top: 90px;
             margin-bottom: 30px;    
             
         }
@@ -1359,7 +1359,7 @@ footer{
         }
     }
 
-    @media screen and (max-width: 680px){
+    @media screen and (max-width: 682px){
         header{
             background-position: center;
         }
@@ -1367,7 +1367,7 @@ footer{
         .portada{
             width: 100px;
             margin-left: px;
-            height: 230px;
+            height: 200px;
     
     
         }
@@ -1384,7 +1384,7 @@ footer{
             margin-left: 5px;
             background-color: #1c1c1c;
             border-radius: 25px;
-            margin-top: 250px;
+            margin-top: 100px;
             margin-bottom: 30px;    
             
         }
@@ -1423,7 +1423,7 @@ footer{
         }
     }
 
-    @media screen and (max-width: 650px){
+    @media screen and (max-width: 653px){
         header{
             background-position: center;
         }
@@ -1431,7 +1431,7 @@ footer{
         .portada{
             width: 100px;
             margin-left: px;
-            height: 180px;
+            height: 200px;
     
     
         }
@@ -1448,7 +1448,7 @@ footer{
             margin-left: 5px;
             background-color: #1c1c1c;
             border-radius: 25px;
-            margin-top: 250px;
+            margin-top: 100px;
             margin-bottom: 30px;    
             
         }
@@ -1487,7 +1487,7 @@ footer{
         }
     }
 
-    @media screen and (max-width: 615px){
+    @media screen and (max-width: 620px){
         header{
             background-position: center;
         }
@@ -1495,7 +1495,7 @@ footer{
         .portada{
             width: 100px;
             margin-left: px;
-            height: 210px;
+            height: 200px;
     
     
         }
@@ -1512,7 +1512,7 @@ footer{
             margin-left: 5px;
             background-color: #1c1c1c;
             border-radius: 25px;
-            margin-top: 250px;
+            margin-top: 120px;
             margin-bottom: 30px;    
             
         }
@@ -1551,7 +1551,7 @@ footer{
         }
     }
 
-    @media screen and (max-width: 575px){
+    @media screen and (max-width: 580px){
         header{
             background-position: center;
         }
@@ -1559,7 +1559,7 @@ footer{
         .portada{
             width: 100px;
             margin-left: px;
-            height: 260px;
+            height: 200px;
     
     
         }
@@ -1576,7 +1576,7 @@ footer{
             margin-left: 5px;
             background-color: #1c1c1c;
             border-radius: 25px;
-            margin-top: 300px;
+            margin-top: 130px;
             margin-bottom: 30px;    
             
         }
@@ -1615,7 +1615,7 @@ footer{
         }
     }
 
-    @media screen and (max-width: 545px){
+    @media screen and (max-width: 550px){
         header{
             background-position: center;
         }
@@ -1623,7 +1623,7 @@ footer{
         .portada{
             width: 100px;
             margin-left: px;
-            height: 260px;
+            height: 200px;
     
     
         }
@@ -1640,7 +1640,7 @@ footer{
             margin-left: 5px;
             background-color: #1c1c1c;
             border-radius: 25px;
-            margin-top: 310px;
+            margin-top: 140px;
             margin-bottom: 30px;    
             
         }
@@ -1679,7 +1679,7 @@ footer{
         }
     }
     
-    @media screen and (max-width: 510px){
+    @media screen and (max-width: 515px){
         header{
             background-position: center;
         }
@@ -1704,7 +1704,7 @@ footer{
             margin-left: 5px;
             background-color: #1c1c1c;
             border-radius: 25px;
-            margin-top: 320px;
+            margin-top: 150px;
             margin-bottom: 30px;    
             
         }
@@ -1743,7 +1743,7 @@ footer{
         }
     }
   
-    @media screen and (max-width: 480px){
+    @media screen and (max-width: 485px){
         header{
             background-position: center;
         }
@@ -1751,7 +1751,7 @@ footer{
         .portada{
             width: 100px;
             margin-left: px;
-            height: 240px;
+            height: 200px;
     
     
         }
@@ -1768,7 +1768,7 @@ footer{
             margin-left: 5px;
             background-color: #1c1c1c;
             border-radius: 25px;
-            margin-top: 340px;
+            margin-top: 150px;
             margin-bottom: 30px;    
             
         }
@@ -1807,7 +1807,7 @@ footer{
         }
     }
   
-    @media screen and (max-width: 450px){
+    @media screen and (max-width: 455px){
         header{
             background-position: center;
         }
@@ -1820,7 +1820,7 @@ footer{
         .portada{
             width: 100px;
             margin-left: px;
-            height: 230px;
+            height: 200px;
     
     
         }
@@ -1837,7 +1837,7 @@ footer{
             margin-left: 5px;
             background-color: #1c1c1c;
             border-radius: 25px;
-            margin-top: 350px;
+            margin-top: 150px;
             margin-bottom: 30px;    
             
         }
