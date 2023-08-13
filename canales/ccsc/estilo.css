@@ -167,11 +167,12 @@ nav > a:hover{
 
 }
 .universal {
-    width:91%; 
+    width:100%; 
     border-radius:10px;
     margin-top:16px;
     justify-content: space-evenly;
     height:660px;
+    margin-left:10px;
 
 }
 
