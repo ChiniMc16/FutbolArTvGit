@@ -55,7 +55,9 @@ nav{
 
 .portada {
     width: 100%;
-    padding-botton: -200px;
+    height: 250px;
+    justify-content: center;
+    
 
 }
 nav > a:hover{
@@ -66,20 +68,24 @@ nav > a:hover{
     background-color: #18171c;
 
 }
+.espacio {
+    
+    
+}
 
 .carbono {
     width:100%;
-    height: 400px;
+    height: 860px;
     background-color: #1c1c1c;
     border-radius: 25px;
-    margin-top: -230px;
+    margin-top: 50px;
     margin-bottom: 30px;    
     
 }
 
 .cajon {
     width:95%;
-    height: 200px ;
+    height: 690px ;
     margin:2.5%;
     
     justify-content: space-evenly;    
@@ -92,11 +98,11 @@ nav > a:hover{
 .if {
     overflow: hidden; 
     border-radius: 10px; 
-    padding-botton: ; 
+    
     
     margin-top: 25px;
     width: 98%;
-    height: 500px;    
+    height: 700px;
     margin: 1%;
     
     
@@ -153,11 +159,11 @@ nav > a:hover{
     
 }
 .envivoif {
-    width:85.5%; 
+    width:91%; 
     border-radius:10px;
     margin-top:16px;
     justify-content: space-evenly;
-    height:165px;
+    height:660px;
 
 }
 
@@ -324,154 +330,1618 @@ footer{
     justify-content: space-evenly;
     padding-bottom: 50px;
 }
+  
 
-
-
-
-
-
-
-
-
-@media screen and (max-width:700px){
+@media screen and (max-width:1267px){
     header{
         background-position: center;
     }
-    .contenedor-sobre-nosotros{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+
+    .portada{
+        width: 100px;
+        margin-left: 0px;
+        height: 280px;
+
+
     }
 
+    .negroazulado {
+        background-color: #18171c;
+       
     
-    .sobre-nosotros .contenido-textos{
-        width: 90%;
-    }
-    .imagen-about-us{
-       width: 100%;
     }
 
-    .imagen-port{
-        width: 100%;
-        flex-direction: column;
-    }
-    
-    .portafolio{
-        width: 100%;
-        flex-direction: column;
-        background-position: center;
-    }
-    .vjs-default-skin{
-        width: 80%;
-        flex-direction: column;
-        justify-content: center;
-        background-position: center;
-    }
-    
-
-    #logo{
-        width: 50%;
-    }
-
-    .embed-responsive {
-        width: 100%;
-        height: 500px;
-      }
-    
-      .embed-responsive-item {
-        width: 80%;
-        height: 100%;
-      }
-   
-}
-
-
-    
-}
-  
-  
-  
-@media screen and (max-width:840px) {
-    .phone{
-        display: none;
-    }
-
-    #phone{
-        display: none;
-    }
-
-    .phones{
-        visibility: visible;
-    }
-
-    .nover{
-        visibility: visible;
+    .carbono {
+        width:100%;
+        height: 830px;
+        margin-left: px;
+        background-color: #1c1c1c;
+        border-radius: 25px;
+        margin-top: 100px;
+        margin-bottom: 30px;    
         
-        padding: 80px;
+    }
+
+    .cajon {
+        width:95%;
+        height: 680px ;
+        margin:2.5%;
+        
+        justify-content: space-evenly;    
+        background-color: #5f7f7a;
+        border-radius: 15px;
+        margin-bottom: 5px;
+        
+    }
+
+    .if {
+        overflow: hidden; 
+        border-radius: 10px; 
+        
+        
+        margin-top: 40px;
+        width: 98%;
+        height: 400px;    
+        margin: 1%;
+    } 
+
+    .envivoif {
+        width:90%; 
+        margin-left: 5px;
+        border-radius:15px;
+        margin-top:30px;
+        justify-content: space-evenly;
+        height:635px;
+    
+    }
+}
+    @media screen and (max-width: 1240px){
+        header{
+            background-position: center;
+        }
+    
+        .portada{
+            width: 100px;
+            margin-left: 0px;
+            height: 230px;
+    
+    
+        }
+    
+        .negroazulado {
+            background-color: #18171c;
+           
+        
+        }
+    
+        .carbono {
+            width:100%;
+            height: 820px;
+            margin-right: px;
+            background-color: #1c1c1c;
+            border-radius: 25px;
+            margin-top: 100px;
+            margin-bottom: 30px;    
+            
+        }
+    
+        .cajon {
+            width:95%;
+            height: 650px ;
+            margin:2.5%;
+            
+            justify-content: space-evenly;    
+            background-color: #5f7f7a;
+            border-radius: 15px;
+            margin-bottom: 5px;
+            
+        }
+    
+        .if {
+            overflow: hidden; 
+            border-radius: 10px; 
+            
+            
+            margin-top: 25px;
+            width: 98%;
+            height: 500px;    
+            margin: 1%;
+        } 
+    
+        .envivoif {
+            width:90%; 
+            margin-left: 5px;
+            border-radius:10px;
+            margin-top:16px;
+            justify-content: space-evenly;
+            height:620px;
+        
+        }
+    }
+    @media screen and (max-width: 1210px){
+        header{
+            background-position: center;
+        }
+    
+        .portada{
+            width: 100px;
+            margin-left: 4px;
+            height: 230px;
+    
+    
+        }
+    
+        .negroazulado {
+            background-color: #18171c;
+           
+        
+        }
+    
+        .carbono {
+            width:100%;
+            height: 790px;
+            margin-left: 5px;
+            background-color: #1c1c1c;
+            border-radius: 25px;
+            margin-top: 100px;
+            margin-bottom: 30px;    
+            
+        }
+    
+        .cajon {
+            width:95%;
+            height: 640px ;
+            margin:2.5%;
+            
+            justify-content: space-evenly;    
+            background-color: #5f7f7a;
+            border-radius: 15px;
+            margin-bottom: 5px;
+            
+        }
+    
+        .if {
+            overflow: hidden; 
+            border-radius: 10px; 
+            
+            
+            margin-top: 25px;
+            width: 98%;
+            height: 500px;    
+            margin: 1%;
+        } 
+    
+        .envivoif {
+            width:90%; 
+            margin-left: 5px;
+            border-radius:10px;
+            margin-top:16px;
+            justify-content: space-evenly;
+            height:610px;
+        
+        }
+    }
+
+    @media screen and (max-width: 1185px){
+        header{
+            background-position: center;
+        }
+    
+        .portada{
+            width: 100px;
+            margin-left: 4px;
+            height: 230px;
+    
+    
+        }
+    
+        .negroazulado {
+            background-color: #18171c;
+           
+        
+        }
+    
+        .carbono {
+            width:100%;
+            height: 770px;
+            margin-left: 5px;
+            background-color: #1c1c1c;
+            border-radius: 25px;
+            margin-top: 100px;
+            margin-bottom: 30px;    
+            
+        }
+    
+        .cajon {
+            width:95%;
+            height: 620px ;
+            margin:2.5%;
+            
+            justify-content: space-evenly;    
+            background-color: #5f7f7a;
+            border-radius: 15px;
+            margin-bottom: 5px;
+            
+        }
+    
+        .if {
+            overflow: hidden; 
+            border-radius: 10px; 
+            
+            
+            margin-top: 25px;
+            width: 98%;
+            height: 500px;    
+            margin: 1%;
+        } 
+    
+        .envivoif {
+            width:90%; 
+            margin-left: 5px;
+            border-radius:10px;
+            margin-top:16px;
+            justify-content: space-evenly;
+            height:590px;
+        
+        }
+    }
+
+    @media screen and (max-width: 1155px){
+        header{
+            background-position: center;
+        }
+    
+        .portada{
+            width: 100px;
+            margin-left: 4px;
+            height: 230px;
+    
+    
+        }
+    
+        .negroazulado {
+            background-color: #18171c;
+           
+        
+        }
+    
+        .carbono {
+            width:100%;
+            height: 750px;
+            margin-left: 5px;
+            background-color: #1c1c1c;
+            border-radius: 25px;
+            margin-top: 100px;
+            margin-bottom: 30px;    
+            
+        }
+    
+        .cajon {
+            width:95%;
+            height: 600px ;
+            margin:2.5%;
+            
+            justify-content: space-evenly;    
+            background-color: #5f7f7a;
+            border-radius: 15px;
+            margin-bottom: 5px;
+            
+        }
+    
+        .if {
+            overflow: hidden; 
+            border-radius: 10px; 
+            
+            
+            margin-top: 25px;
+            width: 98%;
+            height: 500px;    
+            margin: 1%;
+        } 
+    
+        .envivoif {
+            width:90%; 
+            margin-left: 5px;
+            border-radius:10px;
+            margin-top:16px;
+            justify-content: space-evenly;
+            height:570px;
+        
+        }
+    }
+
+    @media screen and (max-width: 1110px){
+        header{
+            background-position: center;
+        }
+    
+        .portada{
+            width: 100px;
+            margin-left: 4px;
+            height: 230px;
+    
+    
+        }
+    
+        .negroazulado {
+            background-color: #18171c;
+           
+        
+        }
+    
+        .carbono {
+            width:100%;
+            height: 730px;
+            margin-left: 5px;
+            background-color: #1c1c1c;
+            border-radius: 25px;
+            margin-top: 100px;
+            margin-bottom: 30px;    
+            
+        }
+    
+        .cajon {
+            width:95%;
+            height: 580px ;
+            margin:2.5%;
+            
+            justify-content: space-evenly;    
+            background-color: #5f7f7a;
+            border-radius: 15px;
+            margin-bottom: 5px;
+            
+        }
+    
+        .if {
+            overflow: hidden; 
+            border-radius: 10px; 
+            
+            
+            margin-top: 25px;
+            width: 98%;
+            height: 500px;    
+            margin: 1%;
+        } 
+    
+        .envivoif {
+            width:90%; 
+            margin-left: 5px;
+            border-radius:10px;
+            margin-top:16px;
+            justify-content: space-evenly;
+            height:550px;
+        
+        }
+    }
+
+    @media screen and (max-width: 1070px){
+        header{
+            background-position: center;
+        }
+    
+        .portada{
+            width: 100px;
+            margin-left: 4px;
+            height: 230px;
+    
+    
+        }
+    
+        .negroazulado {
+            background-color: #18171c;
+           
+        
+        }
+    
+        .carbono {
+            width:100%;
+            height: 710px;
+            margin-left: 5px;
+            background-color: #1c1c1c;
+            border-radius: 25px;
+            margin-top: 70px;
+            margin-bottom: 30px;    
+            
+        }
+    
+        .cajon {
+            width:95%;
+            height: 560px ;
+            margin:2.5%;
+            
+            justify-content: space-evenly;    
+            background-color: #5f7f7a;
+            border-radius: 15px;
+            margin-bottom: 5px;
+            
+        }
+    
+        .if {
+            overflow: hidden; 
+            border-radius: 10px; 
+            
+            
+            margin-top: 25px;
+            width: 98%;
+            height: 500px;    
+            margin: 1%;
+        } 
+    
+        .envivoif {
+            width:90%; 
+            margin-left: 5px;
+            border-radius:10px;
+            margin-top:16px;
+            justify-content: space-evenly;
+            height:530px;
+        
+        }
+    }
+
+    @media screen and (max-width: 1030px){
+        header{
+            background-position: center;
+        }
+    
+        .portada{
+            width: 100px;
+            margin-left: 4px;
+            height: 230px;
+    
+    
+        }
+    
+        .negroazulado {
+            background-color: #18171c;
+           
+        
+        }
+    
+        .carbono {
+            width:100%;
+            height: 690px;
+            margin-left: 5px;
+            background-color: #1c1c1c;
+            border-radius: 25px;
+            margin-top: 80px;
+            margin-bottom: 30px;    
+            
+        }
+    
+        .cajon {
+            width:95%;
+            height: 540px ;
+            margin:2.5%;
+            
+            justify-content: space-evenly;    
+            background-color: #5f7f7a;
+            border-radius: 15px;
+            margin-bottom: 5px;
+            
+        }
+    
+        .if {
+            overflow: hidden; 
+            border-radius: 10px; 
+            
+            
+            margin-top: 25px;
+            width: 98%;
+            height: 500px;    
+            margin: 1%;
+        } 
+    
+        .envivoif {
+            width:90%; 
+            margin-left: 0px;
+            border-radius:10px;
+            margin-top:16px;
+            justify-content: space-evenly;
+            height:510px;
+        
+        }
+    }
+
+    @media screen and (max-width: 985px){
+        header{
+            background-position: center;
+        }
+    
+        .portada{
+            width: 100px;
+            margin-left: 4px;
+            height: 230px;
+    
+    
+        }
+    
+        .negroazulado {
+            background-color: #18171c;
+           
+        
+        }
+    
+        .carbono {
+            width:100%;
+            height: 670px;
+            margin-left: 5px;
+            background-color: #1c1c1c;
+            border-radius: 25px;
+            margin-top: 90px;
+            margin-bottom: 30px;    
+            
+        }
+    
+        .cajon {
+            width:95%;
+            height: 520px ;
+            margin:2.5%;
+            
+            justify-content: space-evenly;    
+            background-color: #5f7f7a;
+            border-radius: 15px;
+            margin-bottom: 5px;
+            
+        }
+    
+        .if {
+            overflow: hidden; 
+            border-radius: 10px; 
+            
+            
+            margin-top: 25px;
+            width: 98%;
+            height: 500px;    
+            margin: 1%;
+        } 
+    
+        .envivoif {
+            width:90%; 
+            margin-left: 0px;
+            border-radius:10px;
+            margin-top:16px;
+            justify-content: space-evenly;
+            height:490px;
+        
+        }
+    }
+
+    @media screen and (max-width: 945px){
+        header{
+            background-position: center;
+        }
+    
+        .portada{
+            width: 100px;
+            margin-left: 4px;
+            height: 230px;
+    
+    
+        }
+    
+        .negroazulado {
+            background-color: #18171c;
+           
+        
+        }
+    
+        .carbono {
+            width:100%;
+            height: 650px;
+            margin-left: 5px;
+            background-color: #1c1c1c;
+            border-radius: 25px;
+            margin-top: 80px;
+            margin-bottom: 30px;    
+            
+        }
+    
+        .cajon {
+            width:95%;
+            height: 500px ;
+            margin:2.5%;
+            
+            justify-content: space-evenly;    
+            background-color: #5f7f7a;
+            border-radius: 15px;
+            margin-bottom: 5px;
+            
+        }
+    
+        .if {
+            overflow: hidden; 
+            border-radius: 10px; 
+            
+            
+            margin-top: 25px;
+            width: 98%;
+            height: 500px;    
+            margin: 1%;
+        } 
+    
+        .envivoif {
+            width:90%; 
+            margin-left: 0px;
+            border-radius:10px;
+            margin-top:16px;
+            justify-content: space-evenly;
+            height:472px;
+        
+        }
+    }
+
+    @media screen and (max-width: 907px){
+        header{
+            background-position: center;
+        }
+    
+        .portada{
+            width: 100px;
+            margin-left: 4px;
+            height: 200px;
+    
+    
+        }
+    
+        .negroazulado {
+            background-color: #18171c;
+           
+        
+        }
+    
+        .carbono {
+            width:100%;
+            height: 630px;
+            margin-left: 5px;
+            background-color: #1c1c1c;
+            border-radius: 25px;
+            margin-top: 80px;
+            margin-bottom: 30px;    
+            
+        }
+    
+        .cajon {
+            width:95%;
+            height: 480px ;
+            margin:2.5%;
+            
+            justify-content: space-evenly;    
+            background-color: #5f7f7a;
+            border-radius: 15px;
+            margin-bottom: 5px;
+            
+        }
+    
+        .if {
+            overflow: hidden; 
+            border-radius: 10px; 
+            
+            
+            margin-top: 25px;
+            width: 98%;
+            height: 500px;    
+            margin: 1%;
+        } 
+    
+        .envivoif {
+            width:90%; 
+            margin-left: 0px;
+            border-radius:10px;
+            margin-top:16px;
+            justify-content: space-evenly;
+            height:452px;
+        
+        }
+    }
+
+    @media screen and (max-width: 865px){
+        header{
+            background-position: center;
+        }
+    
+        .portada{
+            width: 100px;
+            margin-left: px;
+            height: 220px;
+    
+    
+        }
+    
+        .negroazulado {
+            background-color: #18171c;
+           
+        
+        }
+    
+        .carbono {
+            width:100%;
+            height: 610px;
+            margin-left: 5px;
+            background-color: #1c1c1c;
+            border-radius: 25px;
+            margin-top: 120px;
+            margin-bottom: 30px;    
+            
+        }
+    
+        .cajon {
+            width:95%;
+            height: 460px ;
+            margin:2.5%;
+            
+            justify-content: space-evenly;    
+            background-color: #5f7f7a;
+            border-radius: 15px;
+            margin-bottom: 5px;
+            
+        }
+    
+        .if {
+            overflow: hidden; 
+            border-radius: 10px; 
+            
+            
+            margin-top: 25px;
+            width: 98%;
+            height: 500px;    
+            margin: 1%;
+        } 
+    
+        .envivoif {
+            width:90%; 
+            margin-left: 0px;
+            border-radius:10px;
+            margin-top:16px;
+            justify-content: space-evenly;
+            height:430px;
+        
+        }
+    }
+
+    @media screen and (max-width: 832px){
+        header{
+            background-position: center;
+        }
+
+        .titulo{
+            width: 100%;
+            height: 60px;
+        }
+    
+        .portada{
+            width: 100px;
+            margin-left: px;
+            height: 200px;
+    
+    
+        }
+    
+        .negroazulado {
+            background-color: #18171c;
+           
+        
+        }
+    
+        .carbono {
+            width:100%;
+            height: 590px;
+            margin-left: 5px;
+            background-color: #1c1c1c;
+            border-radius: 25px;
+            margin-top: 80px;
+            margin-bottom: 30px;    
+            
+        }
+    
+        .cajon {
+            width:95%;
+            height: 440px ;
+            margin:2.5%;
+            
+            justify-content: space-evenly;    
+            background-color: #5f7f7a;
+            border-radius: 15px;
+            margin-bottom: 5px;
+            
+        }
+    
+        .if {
+            overflow: hidden; 
+            border-radius: 10px; 
+            
+            
+            margin-top: 25px;
+            width: 98%;
+            height: 500px;    
+            margin: 1%;
+        } 
+    
+        .envivoif {
+            width:89%; 
+            margin-left: 0px;
+            border-radius:10px;
+            margin-top:16px;
+            justify-content: space-evenly;
+            height:412px;
+        
+        }
+    }
+
+    @media screen and (max-width: 795px){
+        header{
+            background-position: center;
+        }
+    
+        .portada{
+            width: 100px;
+            margin-left: px;
+            height: 200px;
+    
+    
+        }
+    
+        .negroazulado {
+            background-color: #18171c;
+           
+        
+        }
+    
+        .carbono {
+            width:100%;
+            height: 570px;
+            margin-left: 5px;
+            background-color: #1c1c1c;
+            border-radius: 25px;
+            margin-top: 140px;
+            margin-bottom: 30px;    
+            
+        }
+    
+        .cajon {
+            width:95%;
+            height: 420px ;
+            margin:2.5%;
+            
+            justify-content: space-evenly;    
+            background-color: #5f7f7a;
+            border-radius: 15px;
+            margin-bottom: 5px;
+            
+        }
+    
+        .if {
+            overflow: hidden; 
+            border-radius: 10px; 
+            
+            
+            margin-top: 25px;
+            width: 98%;
+            height: 500px;    
+            margin: 1%;
+        } 
+    
+        .envivoif {
+            width:89%; 
+            margin-left: 0px;
+            border-radius:10px;
+            margin-top:16px;
+            justify-content: space-evenly;
+            height:390px;
+        
+        }
+    }
+
+    @media screen and (max-width: 755px){
+        header{
+            background-position: center;
+        }
+    
+        .portada{
+            width: 100px;
+            margin-left: px;
+            height: 200px;
+    
+    
+        }
+    
+        .negroazulado {
+            background-color: #18171c;
+           
+        
+        }
+    
+        .carbono {
+            width:100%;
+            height: 550px;
+            margin-left: 5px;
+            background-color: #1c1c1c;
+            border-radius: 25px;
+            margin-top: 90px;
+            margin-bottom: 30px;    
+            
+        }
+    
+        .cajon {
+            width:95%;
+            height: 400px ;
+            margin:2.5%;
+            
+            justify-content: space-evenly;    
+            background-color: #5f7f7a;
+            border-radius: 15px;
+            margin-bottom: 5px;
+            
+        }
+    
+        .if {
+            overflow: hidden; 
+            border-radius: 10px; 
+            
+            
+            margin-top: 25px;
+            width: 98%;
+            height: 500px;    
+            margin: 1%;
+        } 
+    
+        .envivoif {
+            width:89%; 
+            margin-left: 0px;
+            border-radius:10px;
+            margin-top:16px;
+            justify-content: space-evenly;
+            height:372px;
+        
+        }
+    }
+
+    @media screen and (max-width: 722px){
+        header{
+            background-position: center;
+        }
+    
+        .portada{
+            width: 100px;
+            margin-left: px;
+            height: 200px;
+    
+    
+        }
+    
+        .negroazulado {
+            background-color: #18171c;
+           
+        
+        }
+    
+        .carbono {
+            width:100%;
+            height: 530px;
+            margin-left: 5px;
+            background-color: #1c1c1c;
+            border-radius: 25px;
+            margin-top: 90px;
+            margin-bottom: 30px;    
+            
+        }
+    
+        .cajon {
+            width:95%;
+            height: 380px ;
+            margin:2.5%;
+            
+            justify-content: space-evenly;    
+            background-color: #5f7f7a;
+            border-radius: 15px;
+            margin-bottom: 5px;
+            
+        }
+    
+        .if {
+            overflow: hidden; 
+            border-radius: 10px; 
+            
+            
+            margin-top: 25px;
+            width: 98%;
+            height: 500px;    
+            margin: 1%;
+        } 
+    
+        .envivoif {
+            width:89%; 
+            margin-left: 0px;
+            border-radius:10px;
+            margin-top:16px;
+            justify-content: space-evenly;
+            height:350px;
+        
+        }
+    }
+
+    @media screen and (max-width: 682px){
+        header{
+            background-position: center;
+        }
+    
+        .portada{
+            width: 100px;
+            margin-left: px;
+            height: 200px;
+    
+    
+        }
+    
+        .negroazulado {
+            background-color: #18171c;
+           
+        
+        }
+    
+        .carbono {
+            width:100%;
+            height: 510px;
+            margin-left: 5px;
+            background-color: #1c1c1c;
+            border-radius: 25px;
+            margin-top: 100px;
+            margin-bottom: 30px;    
+            
+        }
+    
+        .cajon {
+            width:95%;
+            height: 360px ;
+            margin:2.5%;
+            
+            justify-content: space-evenly;    
+            background-color: #5f7f7a;
+            border-radius: 15px;
+            margin-bottom: 5px;
+            
+        }
+    
+        .if {
+            overflow: hidden; 
+            border-radius: 10px; 
+            
+            
+            margin-top: 25px;
+            width: 98%;
+            height: 500px;    
+            margin: 1%;
+        } 
+    
+        .envivoif {
+            width:89%; 
+            margin-left: 0px;
+            border-radius:10px;
+            margin-top:16px;
+            justify-content: space-evenly;
+            height:330px;
+        
+        }
+    }
+
+    @media screen and (max-width: 653px){
+        header{
+            background-position: center;
+        }
+    
+        .portada{
+            width: 100px;
+            margin-left: px;
+            height: 200px;
+    
+    
+        }
+    
+        .negroazulado {
+            background-color: #18171c;
+           
+        
+        }
+    
+        .carbono {
+            width:100%;
+            height: 490px;
+            margin-left: 5px;
+            background-color: #1c1c1c;
+            border-radius: 25px;
+            margin-top: 100px;
+            margin-bottom: 30px;    
+            
+        }
+    
+        .cajon {
+            width:95%;
+            height: 340px ;
+            margin:2.5%;
+            
+            justify-content: space-evenly;    
+            background-color: #5f7f7a;
+            border-radius: 15px;
+            margin-bottom: 5px;
+            
+        }
+    
+        .if {
+            overflow: hidden; 
+            border-radius: 10px; 
+            
+            
+            margin-top: 25px;
+            width: 98%;
+            height: 500px;    
+            margin: 1%;
+        } 
+    
+        .envivoif {
+            width:88.5%; 
+            margin-left: 0px;
+            border-radius:10px;
+            margin-top:16px;
+            justify-content: space-evenly;
+            height:310px;
+        
+        }
+    }
+
+    @media screen and (max-width: 620px){
+        header{
+            background-position: center;
+        }
+    
+        .portada{
+            width: 100px;
+            margin-left: px;
+            height: 200px;
+    
+    
+        }
+    
+        .negroazulado {
+            background-color: #18171c;
+           
+        
+        }
+    
+        .carbono {
+            width:100%;
+            height: 470px;
+            margin-left: 5px;
+            background-color: #1c1c1c;
+            border-radius: 25px;
+            margin-top: 120px;
+            margin-bottom: 30px;    
+            
+        }
+    
+        .cajon {
+            width:95%;
+            height: 320px ;
+            margin:2.5%;
+            
+            justify-content: space-evenly;    
+            background-color: #5f7f7a;
+            border-radius: 15px;
+            margin-bottom: 5px;
+            
+        }
+    
+        .if {
+            overflow: hidden; 
+            border-radius: 10px; 
+            
+            
+            margin-top: 25px;
+            width: 98%;
+            height: 500px;    
+            margin: 1%;
+        } 
+    
+        .envivoif {
+            width:88%; 
+            margin-left: 0px;
+            border-radius:10px;
+            margin-top:16px;
+            justify-content: space-evenly;
+            height:290px;
+        
+        }
+    }
+
+    @media screen and (max-width: 580px){
+        header{
+            background-position: center;
+        }
+    
+        .portada{
+            width: 100px;
+            margin-left: px;
+            height: 200px;
+    
+    
+        }
+    
+        .negroazulado {
+            background-color: #18171c;
+           
+        
+        }
+    
+        .carbono {
+            width:100%;
+            height: 460px;
+            margin-left: 5px;
+            background-color: #1c1c1c;
+            border-radius: 25px;
+            margin-top: 130px;
+            margin-bottom: 30px;    
+            
+        }
+    
+        .cajon {
+            width:95%;
+            height: 310px ;
+            margin:2.5%;
+            
+            justify-content: space-evenly;    
+            background-color: #5f7f7a;
+            border-radius: 15px;
+            margin-bottom: 5px;
+            
+        }
+    
+        .if {
+            overflow: hidden; 
+            border-radius: 10px; 
+            
+            
+            margin-top: 25px;
+            width: 98%;
+            height: 500px;    
+            margin: 1%;
+        } 
+    
+        .envivoif {
+            width:87.5%; 
+            margin-left: 0px;
+            border-radius:10px;
+            margin-top:16px;
+            justify-content: space-evenly;
+            height:280px;
+        
+        }
+    }
+
+    @media screen and (max-width: 550px){
+        header{
+            background-position: center;
+        }
+    
+        .portada{
+            width: 100px;
+            margin-left: px;
+            height: 200px;
+    
+    
+        }
+    
+        .negroazulado {
+            background-color: #18171c;
+           
+        
+        }
+    
+        .carbono {
+            width:100%;
+            height: 410px;
+            margin-left: 5px;
+            background-color: #1c1c1c;
+            border-radius: 25px;
+            margin-top: 140px;
+            margin-bottom: 30px;    
+            
+        }
+    
+        .cajon {
+            width:95%;
+            height: 300px ;
+            margin:2.5%;
+            
+            justify-content: space-evenly;    
+            background-color: #5f7f7a;
+            border-radius: 15px;
+            margin-bottom: 5px;
+            
+        }
+    
+        .if {
+            overflow: hidden; 
+            border-radius: 10px; 
+            
+            
+            margin-top: 25px;
+            width: 98%;
+            height: 500px;    
+            margin: 1%;
+        } 
+    
+        .envivoif {
+            width:87%; 
+            margin-left: 0px;
+            border-radius:10px;
+            margin-top:16px;
+            justify-content: space-evenly;
+            height:270px;
+        
+        }
     }
     
+    @media screen and (max-width: 515px){
+        header{
+            background-position: center;
+        }
+    
+        .portada{
+            width: 100px;
+            margin-left: px;
+            height: 250px;
+    
+    
+        }
+    
+        .negroazulado {
+            background-color: #18171c;
+           
+        
+        }
+    
+        .carbono {
+            width:100%;
+            height: 400px;
+            margin-left: 5px;
+            background-color: #1c1c1c;
+            border-radius: 25px;
+            margin-top: 150px;
+            margin-bottom: 30px;    
+            
+        }
+    
+        .cajon {
+            width:95%;
+            height: 290px ;
+            margin:2.5%;
+            
+            justify-content: space-evenly;    
+            background-color: #5f7f7a;
+            border-radius: 15px;
+            margin-bottom: 5px;
+            
+        }
+    
+        .if {
+            overflow: hidden; 
+            border-radius: 10px; 
+            
+            
+            margin-top: 25px;
+            width: 98%;
+            height: 500px;    
+            margin: 1%;
+        } 
+    
+        .envivoif {
+            width:87%; 
+            margin-left: 0px;
+            border-radius:10px;
+            margin-top:16px;
+            justify-content: space-evenly;
+            height:260px;
+        
+        }
+    }
   
-     
- }
+    @media screen and (max-width: 485px){
+        header{
+            background-position: center;
+        }
+    
+        .portada{
+            width: 100px;
+            margin-left: px;
+            height: 200px;
+    
+    
+        }
+    
+        .negroazulado {
+            background-color: #18171c;
+           
+        
+        }
+    
+        .carbono {
+            width:100%;
+            height: 490px;
+            margin-left: 5px;
+            background-color: #1c1c1c;
+            border-radius: 25px;
+            margin-top: 150px;
+            margin-bottom: 30px;    
+            
+        }
+    
+        .cajon {
+            width:95%;
+            height: 280px ;
+            margin:2.5%;
+            
+            justify-content: space-evenly;    
+            background-color: #5f7f7a;
+            border-radius: 15px;
+            margin-bottom: 5px;
+            
+        }
+    
+        .if {
+            overflow: hidden; 
+            border-radius: 10px; 
+            
+            
+            margin-top: 25px;
+            width: 98%;
+            height: 500px;    
+            margin: 1%;
+        } 
+    
+        .envivoif {
+            width:86.5%; 
+            margin-left: 0px;
+            border-radius:10px;
+            margin-top:16px;
+            justify-content: space-evenly;
+            height:250px;
+        
+        }
+    }
+  
+    @media screen and (max-width: 455px){
+        header{
+            background-position: center;
+        }
+        
+        .titulo{
+            width: 100%;
+            height: 60px;
+        }
+    
+        .portada{
+            width: 100%;
+            margin-left: px;
+            height: 180px;
+    
+    
+        }
+    
+        .negroazulado {
+            background-color: #18171c;
+           
+        
+        }
+    
+        .carbono {
+            width:97%;
+            height: 480px;
+            margin-left: 5px;
+            background-color: #1c1c1c;
+            border-radius: 25px;
+            margin-top: 100px;
+            margin-bottom: 30px;    
+            
+        }
+    
+        .cajon {
+            width:92%;
+            height: 270px ;
+            margin:2.5%;
+            
+            justify-content: space-evenly;    
+            background-color: #5f7f7a;
+            border-radius: 15px;
+            margin-bottom: 5px;
+            
+        }
+    
+        .if {
+            overflow: hidden; 
+            border-radius: 10px; 
+            
+            
+            margin-top: 25px;
+            width: 86%;
+            height: 500px;    
+            margin: 1%;
+        } 
+    
+        .envivoif {
+            width:86%; 
+            margin-left: 0px;
+            border-radius:10px;
+            margin-top:16px;
+            justify-content: space-evenly;
+            height:240px;
+        
+        }
+    }
 
- @media screen and (max-width:1000px) {
- 
-    nav{
-        text-align: right;
-        padding: 40px 60px 0 0;
-    }
+@media screen and (max-width: 425px){
+        header{
+            background-position: center;
+        }
+        
+        .titulo{
+            width: 100%;
+            height: 60px;
+        }
     
-    nav > a{
-        color: moccasin;
-        font-weight: 300;
-        text-decoration: none;
-        margin-right: 10px;
-    }
-    nav > a:hover{
-        text-decoration: underline;
-    }
+        .portada{
+            width: 100%;
+            margin-left: px;
+            height: 150px;
     
     
-    header .textosheader{
-        display: flex;
-        height: 100%;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-    }
-     
+        }
     
-    .textosheader h1{
-        font-size: 100%;
-        color: hsl(49, 100%, 50%);
-    }
+        .negroazulado {
+            background-color: #18171c;
+           
+        
+        }
     
-    .textosheader h2{
-        font-size: 100%;
-        color: hsl(49, 100%, 50%);
-        font-weight: 400;
-    }
+        .carbono {
+            width:97%;
+            height: 400px;
+            margin-left: 8px;
+            background-color: #1c1c1c;
+            border-radius: 25px;
+            margin-top: 30px;
+            margin-bottom: 30px;    
+            
+        }
     
+        .cajon {
+            width:95%;
+            height: 220px ;
+            margin-left: 8px;
+            
+            justify-content: space-evenly;    
+            background-color: #5f7f7a;
+            border-radius: 15px;
+            margin-bottom: 5px;
+            
+        }
     
+        .if {
+            overflow: hidden; 
+            border-radius: 10px; 
+            
+            
+            margin-top: 25px;
+            width: 86%;
+            height: 500px;    
+            margin: 1%;
+        } 
     
-    li{
-        text-align: right;
-        padding: 40px 50px 0 0;
-    }
-    
-    li > a{
-        color: green;
-        font-weight: 300;
-        text-decoration: none;
-        margin-right: 10px;
-    }
-    
-    li > a:hover{
-        text-decoration: wavy;
-    }
-
-    
- }
+        .envivoif {
+            width:83%; 
+            margin-left: 0px;
+            border-radius:10px;
+            margin-top:16px;
+            justify-content: space-evenly;
+            height:183px;
+        
+        }
+}
   
