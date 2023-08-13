@@ -1818,7 +1818,7 @@ footer{
         }
     
         .portada{
-            width: 100px;
+            width: 100%;
             margin-left: px;
             height: 180px;
     
@@ -1860,7 +1860,7 @@ footer{
             
             
             margin-top: 25px;
-            width: 98%;
+            width: 86%;
             height: 500px;    
             margin: 1%;
         } 
@@ -1887,7 +1887,7 @@ footer{
         }
     
         .portada{
-            width: 100px;
+            width: 100%;
             margin-left: px;
             height: 150px;
     
@@ -1901,7 +1901,7 @@ footer{
         }
     
         .carbono {
-            width:95%;
+            width:97%;
             height: 400px;
             margin-left: opx;
             background-color: #1c1c1c;
@@ -1912,7 +1912,7 @@ footer{
         }
     
         .cajon {
-            width:90%;
+            width:92%;
             height: 220px ;
             margin-left: 4px;
             
@@ -1929,7 +1929,7 @@ footer{
             
             
             margin-top: 25px;
-            width: 98%;
+            width: 86%;
             height: 500px;    
             margin: 1%;
         } 
