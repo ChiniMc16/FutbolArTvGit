@@ -168,11 +168,12 @@ nav > a:hover{
 }
 
 .uni {
-    width:98%; 
+    width:90%; 
+    height:590px;
     border-radius:10px;
     margin-top:16px;
     justify-content: space-evenly;
-    height:550px;
+    
 
 }
 
