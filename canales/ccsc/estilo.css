@@ -31,6 +31,18 @@ body{
     border-color: #ffffff;
 
 }
+.botón {
+    Font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+    -webkit-text-stroke: 0.5px #ffffff;
+    color: red;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-alige: center;
+    border-color:black 
+    background-color: green;
+    
+    
+}
 
 .idioma{
     font-size: 10px;
